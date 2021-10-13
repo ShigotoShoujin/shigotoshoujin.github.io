@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Understanding Jekyll"
-date:   2021-10-13 22:55:00 -0500
+date:   2021-10-13
 categories: jekyll update
 ---
 
