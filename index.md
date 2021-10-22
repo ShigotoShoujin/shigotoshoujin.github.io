@@ -9,6 +9,7 @@ title: Blog
     <li>
       <h2>{{ post.date | date: "%F" }} - <a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
+	  <br/>
     </li>
   {% endfor %}
 </ul>
