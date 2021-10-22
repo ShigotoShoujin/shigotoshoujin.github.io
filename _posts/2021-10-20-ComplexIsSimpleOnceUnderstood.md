@@ -7,6 +7,7 @@ categories: jekyll update
 
 ### Followup on rvalues
 A refresh on rvalue and move semantics over a few days, improved the understanding enough to make them comfortable to use.
+
 - The default move implementation will copy each member, but not clear them in the instance being moved.  
 This is very fine as long as no members are raw pointers. In that case, only the raw pointers need to be cleared in the moved instance.
 
