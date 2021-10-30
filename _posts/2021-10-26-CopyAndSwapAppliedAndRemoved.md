@@ -101,4 +101,4 @@ Now the Bitmap class represent a picture with a non trivial size.
 
 Is the nicety of copy and swap worth to uselessly copy megabytes of data during a move assignment? Surely not!
 
-### Ref 916e227faa0b20a4d8a9e1561e934e7022809af4
+#### Ref 916e227faa0b20a4d8a9e1561e934e7022809af4
