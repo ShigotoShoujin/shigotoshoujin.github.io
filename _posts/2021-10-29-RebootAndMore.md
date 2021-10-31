@@ -18,9 +18,9 @@ With the previous code out of the way safely tucked into the main branch, the as
 
 It supports acquiring detailed error information from
 - Generic errors with no detailed information
-- C library errors with *_tcserror_s*
-- STL errors with *std::error_code*
-- Win32 API errors with *GetLastError / FormatMessage*
+- C library errors with `_tcserror_s`
+- STL errors with `std::error_code`
+- Win32 API errors with `GetLastError` / `FormatMessage`
 
 The detailed error information is sent to the standard error stream by default, but can also be redirected to a file.
 
