@@ -6,7 +6,6 @@ categories: jekyll update
 ---
 
 ### Anonymous Lambda
-
 In the following code, GetMessage return -1 on error
 
     while(_hwnd && GetMessage(&msg, _hwnd, 0, 0)) {
